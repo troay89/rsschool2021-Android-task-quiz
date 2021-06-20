@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="170dp"
+        android:textSize="28sp"
+        android:text="@string/finish_result"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="136dp"
+        android:background="@color/white"
+        android:src="@drawable/ic_baseline_share_48"
+        android:contentDescription="@string/share"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <ImageButton
+        android:id="@+id/anew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@color/white"
+        android:contentDescription="@string/anew"
+        android:src="@drawable/ic_baseline_arrow_back_48"
+        app:layout_constraintStart_toStartOf="@+id/share"
+        app:layout_constraintTop_toBottomOf="@+id/share" />
+
+    <ImageButton
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@color/white"
+        android:contentDescription="@string/close"
+        android:src="@drawable/ic_baseline_close_48"
+        app:layout_constraintStart_toStartOf="@+id/anew"
+        app:layout_constraintTop_toBottomOf="@+id/anew" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

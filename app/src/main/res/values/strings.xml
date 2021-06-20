@@ -1,3 +1,46 @@
 <resources>
-    <string name="app_name">Quiz</string>
+    <string name="app_name">Quez2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="quiz1">Выберите верное утверждение:</string>
+    <string name="quiz2">Выберите верное утверждение:</string>
+    <string name="quiz3">Выберите верное утверждение о ключевом слове final:</string>
+    <string name="quiz4">Какие модификаторы доступа можно использовать для внешнего класса?</string>
+    <string name="quiz5">Подклассом класса IOException является?</string>
+    <string name="answer1.1">Все утверждения верны</string>
+    <string name="answer1.2">и HashTable и HashMap синхронизированы</string>
+    <string name="answer1.3">и HashTable и HashMap не синхронизированы</string>
+    <string name="answer1.4">HashNap допускает в качестве ключа использвать null, HashTable не позваляет</string>
+    <string name="answer1.5">HashTable не существует</string>
+    <string name="answer2.1">у перечислений может быть конструктор с параметрами, и только с модификатором доступа private</string>
+    <string name="answer2.2">у перечислений может быть конструктор с параметрами, и любым модификатором доступа</string>
+    <string name="answer2.3">у перечислений имеется только констуктор по-умалчанию</string>
+    <string name="answer2.4">у перечислений не может быть конструктора</string>
+    <string name="answer2.5">перечислений в java не существует</string>
+    <string name="answer3.1">можно менять значение final поля</string>
+    <string name="answer3.2">абстрактный класс может быть объявлен с модификатором final</string>
+    <string name="answer3.3">нельзя объявить абстрактный класс с модификатором final</string>
+    <string name="answer3.4">можно переопределить методы с модификатором final</string>
+    <string name="answer3.5">ключевого слова final в java не существует</string>
+    <string name="answer4.1">public, protected</string>
+    <string name="answer4.2">public, default</string>
+    <string name="answer4.3">default, protected, public</string>
+    <string name="answer4.4">public, private</string>
+    <string name="answer4.5">public</string>
+    <string name="answer5.1">FileNotFoundException</string>
+    <string name="answer5.2">NullPointerException</string>
+    <string name="answer5.3">Exception</string>
+    <string name="answer5.4">RuntimeException</string>
+    <string name="answer5.5">Throwable</string>
+    <string name="finish_result">Ваш результат %1$d%%</string>
+    <string name="topic">Quiz результат</string>
+    <string name="your_answer">Ваш ответ: </string>
+    <string name="send">%1$s\n\n1)%2$s\n%3$s %4$s\n\n2)%5$s\n%6$s %7$s\n\n3)%8$s\n%9$s %10$s\n\n4)%11$s\n%12$s %13$s\n\n5)%14$s\n%15$s %16$s</string>
+    <string name="send_report">Выбирайка</string>
+    <string name="share">поделиться результатом</string>
+    <string name="anew">начать заново</string>
+    <string name="close">закрыть приложение</string>
+    <string name="Previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="submit">Submit</string>
 </resources>
